@@ -67,13 +67,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CatPage.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="DogPage.aspx" />
+    <Content Include="images\catFood.jpg" />
+    <Content Include="images\catFurniture.jpg" />
+    <Content Include="images\catLitter.jpg" />
+    <Content Include="images\catMed.png" />
     <Content Include="images\DogAndCatBanner.jpg" />
     <Content Include="images\dogClothes.jfif" />
     <Content Include="images\dogfood.jpg" />
     <Content Include="images\dogJacket.jpg" />
     <Content Include="images\dogtreats.jpg" />
+    <Content Include="images\kitten.jpg" />
     <Content Include="images\newdogbanner.png" />
     <Content Include="images\petFoodbanner.jpg" />
     <Content Include="images\petGrooming.jpg" />
@@ -84,6 +90,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CatPage.aspx.cs">
+      <DependentUpon>CatPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CatPage.aspx.designer.cs">
+      <DependentUpon>CatPage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
